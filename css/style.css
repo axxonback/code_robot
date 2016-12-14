@@ -146,5 +146,10 @@ font-size:12px;
     border:3px #c8d8bf solid;
     margin-right:0px;
     margin-left:15px;
-}
+} 
 
+form label {
+	display: inline-block;
+	width: 225px;
+	font-weight: bold;
+}
