@@ -143,7 +143,7 @@
         }
 
         // Update the scene image
-        document.getElementById("sceneimg").src = "scene" + curScene + ".png";
+        document.getElementById("sceneimg").src = "img/scene" + curScene + ".png";
 
         // Update the scene description text and decisions
         replaceNodeText("scenetext", message);
@@ -169,7 +169,7 @@
 
   <body>
     <div style="margin-top:100px; text-align:center">
-      <img id="sceneimg" src="scene0.png" alt="Stick Figure Adventure" /><br />
+      <img id="sceneimg" src="img/scene0.png" alt="Stick Figure Adventure" /><br />
       <div id="scenetext"></div><br />
       <span id="decision1" class="decision" onclick="changeScene(1)"
         onmouseover="this.className = 'decisionhover'"
